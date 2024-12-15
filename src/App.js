@@ -6,9 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from './components/card';
 import { Input } from './components/input';
 import axios from 'axios';
 
-// Configure axios base URL for localhost
 const api = axios.create({
-  baseURL: 'https://todo-app-backend-n30f.onrender.com',  // Changed to localhost
+  baseURL: 'https://todo-app-backend-n30f.onrender.com', 
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
