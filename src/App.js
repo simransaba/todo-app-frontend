@@ -8,7 +8,7 @@ import axios from 'axios';
 
 // Configure axios base URL for localhost
 const api = axios.create({
-  baseURL: 'http://localhost:5000',  // Changed to localhost
+  baseURL: 'https://todo-app-backend-n30f.onrender.com',  // Changed to localhost
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
