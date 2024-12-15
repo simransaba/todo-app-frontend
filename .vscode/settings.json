@@ -1,0 +1,13 @@
+{
+    "css.validate": false,
+    "tailwindCSS.includeLanguages": {
+      "javascript": "javascript",
+      "html": "HTML"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.shareSuggestSelections": true,
+    "tailwindCSS.emmetCompletions": true,
+    "editor.inlineSuggest.enabled": true
+  }
